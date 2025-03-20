@@ -1,0 +1,154 @@
+/* Font style */
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Btn */
+.btn-primary {
+    color: aliceblue;
+    background-color: #FD6E0A;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* Btn Hover */
+.btn-primary:hover {
+    background-color: cadetblue;
+    color: aqua;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+/* header */
+.header {
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* text-primary */
+.text-primary {
+    color: #FD6E0A;
+}
+
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+
+/* nave-title */
+.nave-title {
+    font-weight: 800px;
+    font-size: 45px;
+}
+
+
+/* list item <li> */
+nav ul li {
+    list-style: none;
+}
+
+
+/* href  <a> */
+nav li a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: black;
+
+    /* unouderlist <ul> */
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+/* baner */
+.baner {
+    justify-content: space-between;
+    display: flex;
+    margin: 0 35px 0 210px;
+    align-items: center;
+    margin-top: 0;
+}
+
+/* baner-continer */
+.baner-continer {
+    max-width: 580px;
+}
+
+/* baner-greeting */
+.baner-greeting {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 5px;
+    font-size: 40px;
+    width: 177px;
+    height: 61px;
+    color: #474747;
+}
+
+/* baner-titel */
+.baner-titel {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-size: 80px;
+    width: 498px;
+    height: 116px;
+}
+
+/* bener-despiton */
+.bener-despiton {
+    width: 575px;
+    height: 75px;
+}
+
+.img>img {
+    width: 560px;
+    height: 630px;
+}
+.backgrund-color {
+    background-color: #FFF8F3;
+}
+
+/* Headder ariea */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.abouth3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.aboutp {
+    font-size: 18px;
+}
+.about-items {
+    display: flex;
+    /* gap: 50px; */
+    justify-content: space-around;
+}
+.about-title {
+    font-size: 20px;
+}
+.about-description {
+    font-size: 20px;
+    font-weight: bold;
+}
